@@ -1,22 +1,16 @@
-# Phonebook API
+# Unicafe Redux
 
-In this exercise, we implemented a fullstack phonebook app with a backend written in Node.js and a frontend in react.js. The data are saved in a mongodb database and the app is deployed on heroku at the folowing URL.
+In this exercise, we made a simplified version of the unicafe-exercise from part 1 with handling of the state management with `Redux`. As a reminder, the unicafe app collects customer feedback with three options: good, neutral, and bad.
 
-* https://peaceful-depths-89341.herokuapp.com/
+## Start the application
 
-## Start the application locally
-
-To start an application:
+To start an application, do the following :
 
 ```bash
 # Install dependancies
 $ npm install
-
-# create a .env file and put there the MONGODB_URI for connecting to your mongodb database
-$ echo "MONGODB_URI=<YOUR-MONGODB-URI>" > .env
-
 # Start the application
-$ npm run dev
+$ npm start
 ```
 
-You can then access the app on : http://localhost:3001/
+You can then access the app on : [http://localhost:3000/](http://localhost:3000/)
